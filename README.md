@@ -1,14 +1,31 @@
-# 🧘 Medit - Meditaciones
+# 🧘 Medit - Plataforma de Meditaciones
 
-Una plataforma moderna para explorar, practicar y compartir meditaciones. Diseñada para ayudarte a cultivar la atención plena y el bienestar mental.
+**Medit** es un repositorio centralizado de meditaciones y cursos diseñado para crear una plataforma educativa completa. Nuestro objetivo es desarrollar una biblioteca de meditaciones guiadas, cursos estructurados y contenido progresivo para ayudar a los alumnos a iniciarse y profundizar en la práctica de la meditación y el bienestar mental.
 
-## ✨ Características
+## 🎯 Roadmap del Proyecto
 
-- **Biblioteca de Meditaciones**: Acceso a una variedad de meditaciones guiadas
-- **Seguimiento de Progreso**: Mantén registro de tu práctica diaria
-- **Personalización**: Adapta las meditaciones a tus preferencias
-- **Comunidad**: Conecta con otros meditadores
-- **Múltiples Duraciones**: Desde meditaciones rápidas hasta sesiones largas
+### Fase 1: Creación de Contenido (Actual)
+- 📹 Grabar meditaciones guiadas de iniciación
+- 📚 Estructurar un curso de iniciación a la meditación
+- 🏷️ Organizar y catalogar el contenido
+
+### Fase 2: Integración a App
+- 🚀 Desarrollar aplicación web para alumnos
+- 📱 Adaptación para dispositivos móviles
+- 👤 Gestión de perfiles y seguimiento de progreso
+
+### Fase 3: Expansión
+- 📖 Nuevos cursos temáticos (mindfulness, compasión, etc.)
+- 🎬 Más contenido de video
+- 📊 Análisis de progreso y recomendaciones personalizadas
+
+## ✨ Características Planeadas
+
+- **Meditaciones Guiadas**: Biblioteca de meditaciones organizadas por dificultad y duración
+- **Cursos Estructurados**: Programas de iniciación y avanzados
+- **Seguimiento de Progreso**: Registro de práctica diaria de alumnos
+- **Múltiples Formatos**: Video, audio y texto
+- **Gestión de Contenido**: Sistema estructurado para organizar y versionar meditaciones
 
 ## 🚀 Inicio Rápido
 
@@ -31,27 +48,63 @@ npm install
 npm start
 ```
 
-## 📖 Uso
+## 📖 Cómo Contribuir Contenido
 
-Para usar Medit:
+### Crear una Nueva Meditación
 
-1. Abre la aplicación en tu navegador
-2. Explora la biblioteca de meditaciones
-3. Selecciona una meditación que te interese
-4. Sigue las instrucciones del guía
-5. Registra tu progreso en tu perfil
+1. **Organiza el contenido** en la carpeta correspondiente bajo `/content/meditaciones/`
+2. **Prepara los archivos**:
+   - Video o audio de la meditación
+   - Descripción en formato `.md`
+   - Imagen de portada (opcional)
+3. **Documentación**: Incluye metadatos con título, duración, nivel, beneficios
+4. **Prueba**: Verifica que todos los archivos estén correctamente linkados
 
-## 🛠️ Desarrollo
+### Estructura de una Meditación
 
-### Estructura del Proyecto
+```
+content/meditaciones/iniciacion/respiracion-basica/
+├── meditacion.mp4          # Video o audio principal
+├── README.md               # Descripción y metadatos
+├── transcripcion.txt       # Guión de la meditación
+└── portada.jpg            # Imagen de portada
+```
+
+## 📁 Estructura del Proyecto
 
 ```
 medit/
-├── src/              # Código fuente
-├── public/           # Archivos públicos
-├── tests/            # Pruebas
-└── README.md         # Este archivo
+├── content/
+│   ├── meditaciones/          # Meditaciones individuales
+│   │   ├── iniciacion/        # Curso de iniciación
+│   │   ├── mindfulness/       # Meditaciones de mindfulness
+│   │   └── avanzado/          # Contenido avanzado
+│   │
+│   ├── cursos/                # Estructuras de cursos
+│   │   └── iniciacion.json    # Curso de iniciación con módulos
+│   │
+│   └── assets/                # Videos, audios y recursos
+│       ├── videos/
+│       ├── audios/
+│       └── imagenes/
+│
+├── src/                       # Código fuente de la app (futuro)
+├── docs/                      # Documentación
+├── scripts/                   # Scripts de utilidad
+└── README.md                  # Este archivo
 ```
+
+## 🛠️ Desarrollo
+
+### Organización del Contenido
+
+Cada meditación debe incluir:
+- **Título**: Nombre descriptivo
+- **Categoría**: Tipo de meditación (iniciación, mindfulness, etc.)
+- **Duración**: Tiempo de la sesión
+- **Descripción**: Propósito y beneficios
+- **Nivel**: Principiante, intermedio, avanzado
+- **Recursos**: Videos, audios, transcripciones
 
 ### Scripts Disponibles
 

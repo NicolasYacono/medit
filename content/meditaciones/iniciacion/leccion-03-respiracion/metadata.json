@@ -1,0 +1,56 @@
+{
+  "id": "respiracion-basica",
+  "leccionId": 3,
+  "titulo": "Meditación de Respiración - 5 minutos",
+  "tipo": "audio",
+  "categoria": "iniciacion",
+  "nivel": "principiante",
+  "duracion": 5,
+  "descripcion": "Aprende la técnica básica de respiración diafragmática",
+  "beneficios": [
+    "Calma mental",
+    "Mejor circulación de oxígeno",
+    "Reducción de ansiedad"
+  ],
+  "tecnicas": [
+    "Respiración diafragmática",
+    "Respiración 4-7-8"
+  ],
+  "duracionVideo": 0,
+  "duracionAudio": 5,
+  "instrumento": "Voz masculina tranquila",
+  "ambiente": "Sonidos naturales de fondo",
+  "idioma": "es",
+  "generado": {
+    "metodo": "ElevenLabs",
+    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+    "voiceName": "George",
+    "generatedAt": "2026-09-19T10:00:00Z",
+    "modelo": "eleven_monolingual_v1"
+  },
+  "almacenamiento": {
+    "tipo": "cloudflare-r2",
+    "bucket": "medit-content",
+    "ruta": "audios/iniciacion/respiracion-basica.mp3",
+    "url": "https://r2.tudominio.com/audios/iniciacion/respiracion-basica.mp3",
+    "tamaño": "3.2MB",
+    "formato": "mp3",
+    "bitrate": "128kbps"
+  },
+  "transcrip": {
+    "presente": true,
+    "archivo": "transcripcion.txt",
+    "caracteres": 1240
+  },
+  "portada": {
+    "presente": true,
+    "archivo": "portada.jpg",
+    "url": "https://r2.tudominio.com/imagenes/respiracion-basica.jpg"
+  },
+  "notas": "Esta es una meditación introductoria. No te preocupes si tu mente se distrae - es completamente normal.",
+  "instrucciones": "1. Siéntate cómodamente\n2. Cierra los ojos\n3. Presiona play\n4. Sigue las instrucciones de la voz",
+  "createdAt": "2026-09-19T10:00:00Z",
+  "updatedAt": "2026-09-19T10:00:00Z",
+  "version": "1.0",
+  "publicado": true
+}

@@ -1,4 +1,4 @@
-# Meditación de Respiración - Guión V4
+# Meditación de Respiración - Guión V4 - Español (Voz Masculina)
 
 [Intro]
 [warm] Hola, es un gusto darte la bienvenida a esta meditación.
@@ -7,7 +7,7 @@
 
 [Preparación y postura]
 [calm] Busca un lugar relativamente silencioso 
-y tómate un momento para ajustar tu postura.
+y dedica un momento a ajustar tu postura.
 
 Prioriza la comodidad. Ya sea en el suelo o en una silla, 
 alinea el tronco con suavidad, mantén la cabeza recta 
@@ -17,13 +17,13 @@ y deja que las manos descansen cómodamente sobre los muslos.
 
 [gentle] Recuerda que es natural que la mente se distraiga; 
 cada vez que lo haga, con firmeza y paciencia, 
-simplemente la traemos de vuelta.
+simplemente la traes de vuelta.
 
 [pause 3s]
 
 [Fase 1: La respiración]
 [serene] Comenzamos llevando la atención a la respiración... 
-tal y como es, sin cambiarla, sin forzarla.
+tal como es, sin cambiarla, sin forzarla.
 
 [pause 2s]
 
@@ -89,7 +89,7 @@ al movimiento suave del cuerpo al respirar.
 
 [gentle] A tu ritmo, abre lentamente los ojos.
 
-Tómate un momento para sentir los efectos de esta práctica.
+Dedica un momento para sentir los efectos de esta práctica.
 
 [pause 2s]
 
